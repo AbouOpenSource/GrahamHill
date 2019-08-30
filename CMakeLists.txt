@@ -21,6 +21,9 @@ IF (WIN32)
 
     include_directories(${FREEGLUT_INCLUDE_DIRS} ${OPENGL_INCLUDE_DIRS} ${GLUT_INTERFACE_DIRS})
     link_directories(${FREEGLUT_LIBRARY_DIRS} ${OPENGL_LIBRARY_DIRS} ${GLUT_INTERFACE_LIB_DIRS})
+    add_definitions(${FREEGLUT_DEFINITIONS} ${OPENGL_DEFINITIONS})
+    add_executable(${PROJECT_NAME} main.cpp)
+    target_link_libraries(${PROJECT_NAME} ${FREEGLUT_LIBRARIES} ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES} glutInterface.lib)
 ENDIF (WIN32)
 
 IF(UNIX)
@@ -28,6 +31,8 @@ IF(UNIX)
 
     SET(GLUT_INCLUDE_DIR /usr/include)
     SET(GLUT_glut_LIBRARY /usr/lib/x86_64-linux-gnu/libglut.so)
+    set(GLUT_INTERFACE_DIRS  ../glutInterface)
+    set(GLUT_INTERFACE_LIB_DIRS  ../glutInterface/cmake-build-debug)
 
     # GLUT
     #########################################################
@@ -44,10 +49,11 @@ IF(UNIX)
     # OpenGL
     find_package(OpenGL REQUIRED)
 
-    include_directories( ${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} )
+    include_directories( ${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} ${GLUT_INTERFACE_DIRS} )
+    link_directories(${FREEGLUT_LIBRARY_DIRS} ${OPENGL_LIBRARY_DIRS} ${GLUT_INTERFACE_LIB_DIRS})
+    add_definitions(${FREEGLUT_DEFINITIONS} ${OPENGL_DEFINITIONS})
+    add_executable(${PROJECT_NAME} main.cpp)
+    target_link_libraries(${PROJECT_NAME} ${FREEGLUT_LIBRARIES} ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES} libglutInterface.so)
 ENDIF()
 
-add_definitions(${FREEGLUT_DEFINITIONS} ${OPENGL_DEFINITIONS})
 
-add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} ${FREEGLUT_LIBRARIES} ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES} glutInterface.lib)
