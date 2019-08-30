@@ -40,19 +40,13 @@ IF(LINUX)
     set(GLUT_INTERFACE_DIRS  ../glutInterface)
     set(GLUT_INTERFACE_LIB_DIRS  ../glutInterface/cmake-build-debug)
 
-    # GLUT
-    #########################################################
-    # FIND GLUT
-    #########################################################
     find_package(GLUT REQUIRED)
-    #include_directories(${GLUT_INCLUDE_DIRS})
     link_directories(${GLUT_LIBRARY_DIRS})
     add_definitions(${GLUT_DEFINITIONS})
     if(NOT GLUT_FOUND)
         message(ERROR " GLUT not found!")
     endif(NOT GLUT_FOUND)
 
-    # OpenGL
     find_package(OpenGL REQUIRED)
 
     include_directories( ${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} ${GLUT_INTERFACE_DIRS} )
