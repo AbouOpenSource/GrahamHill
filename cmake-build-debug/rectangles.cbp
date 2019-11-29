@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rectangles"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rectangles">
+				<Option output="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug/rectangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FREEGLUT"/>
+					<Add directory="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/../glutInterface"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rectangles"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rectangles/fast">
+				<Option output="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug/rectangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FREEGLUT"/>
+					<Add directory="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/../glutInterface"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rectangles/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric\ Function/exemple_rectangles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.cpp">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.h">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/PolygonDraw.cpp">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/PolygonDraw.h">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Triangle.cpp">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Triangle.h">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.cpp">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.h">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/main.cpp">
+			<Option target="rectangles"/>
+		</Unit>
+		<Unit filename="/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.12)
 
 set(PROJECT_NAME rectangles)
-set(PROJECT_FILES main.cpp)
+set(PROJECT_FILES main.cpp Vector2D.cpp Vector2D.h MyPolygon.cpp MyPolygon.h PolygonDraw.cpp PolygonDraw.h Triangle.cpp Triangle.h)
+
 project(${PROJECT_NAME})
 
 set(CMAKE_CXX_STANDARD 14)
 if(UNIX AND NOT APPLE)
     set(LINUX TRUE)
 endif()
-
 
 IF (WIN32)
     message(STATUS ">>> Win32")

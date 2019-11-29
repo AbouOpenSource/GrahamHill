@@ -1,0 +1,3 @@
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug/CMakeFiles/rectangles.dir
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug/CMakeFiles/edit_cache.dir

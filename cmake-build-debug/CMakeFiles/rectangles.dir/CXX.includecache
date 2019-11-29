@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../glutInterface/glutWindow.h
+iostream
+-
+string
+-
+cassert
+-
+cmath
+-
+GL/freeglut.h
+-
+GLUT/glut.h
+-
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.cpp
+algorithm
+-
+stack
+-
+MyPolygon.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.h
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.h
+Vector2D.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.h
+Triangle.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Triangle.h
+glutWindow.h
+-
+vector
+-
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/PolygonDraw.cpp
+PolygonDraw.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/PolygonDraw.h
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/PolygonDraw.h
+iostream
+-
+cstdlib
+-
+glutWindow.h
+-
+Vector2D.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.h
+MyPolygon.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/MyPolygon.h
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Triangle.h
+Vector2D.h
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.h
+vector
+-
+array
+-
+
+/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/Vector2D.h
+

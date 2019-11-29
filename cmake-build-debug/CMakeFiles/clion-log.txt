@@ -1,0 +1,5 @@
+/opt/clion-2019.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles"
+-- >>> LINUX
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abou/Bureau/COURSM1IOT/AdvancedAlgorithms/Geometric Function/exemple_rectangles/cmake-build-debug
